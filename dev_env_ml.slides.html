@@ -14674,9 +14674,9 @@ div.jp-OutputPrompt {
 <li>Why VS Code?</li>
 <li>Install VS Code and necessary plugins</li>
 <li>A primer on Virtual Environments</li>
-<li>Jupyter Notebooks and Virtual Environments</li>
-<li>My favorite plugins</li>
-<li>Bonus: favorite Data Sciency libraries</li>
+<li>Jupyter Notebooks and Virtual Environments - Demo</li>
+<li>My favorite plugins - Demo</li>
+<li>Bonus: favorite Data Sciency libraries - Demo</li>
 </ul>
 
 </div>
@@ -14745,6 +14745,7 @@ div.jp-OutputPrompt {
 $<span class="w"> </span>python<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>.venv
 $<span class="w"> </span><span class="nb">source</span><span class="w"> </span>.venv/bin/activate
 <span class="o">(</span>.venv<span class="o">)</span>$<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>pandas
+<span class="o">(</span>.venv<span class="o">)</span>$<span class="w"> </span>pip<span class="w"> </span>freeze<span class="w"> </span>&gt;<span class="w"> </span>requirements.txt
 <span class="o">(</span>.venv<span class="o">)</span>$<span class="w"> </span>pip<span class="w"> </span>freeze<span class="w"> </span>-r<span class="w"> </span>requirements.txt
 </pre></div>
 <h2 id="Pro-tip">Pro-tip<a class="anchor-link" href="#Pro-tip">&#182;</a></h2><p>Add the following to your <code>.gitignore</code>:</p>
@@ -14773,7 +14774,7 @@ $<span class="w"> </span><span class="nb">source</span><span class="w"> </span>.
 <span class="o">(</span>.venv<span class="o">)</span>$<span class="w"> </span>ipython<span class="w"> </span>kernel<span class="w"> </span>install<span class="w"> </span>--name<span class="w"> </span><span class="s2">&quot;local-venv&quot;</span><span class="w"> </span>--user
 </pre></div>
 </li>
-<li>You will need to put the proper <code>local-venv</code> name, which you can find in the Jupyter kernel config.</li>
+<li>You will need to put the proper <code>local-venv</code> name, which in our examples is <code>.venv</code>.</li>
 </ul>
 
 </div>
@@ -14789,24 +14790,13 @@ $<span class="w"> </span><span class="nb">source</span><span class="w"> </span>.
 <h1 id="Favorite-Plugins">Favorite Plugins<a class="anchor-link" href="#Favorite-Plugins">&#182;</a></h1><ul>
 <li><a href="https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance">pylance</a></li>
 <li><a href="https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode">intellicode</a></li>
-<li><a href="https://marketplace.visualstudio.com/items?itemName=DanielSanMedium.dscodegpt">CodeGPT</a></li>
 <li><a href="https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring">autodocstring</a></li>
 <li><a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh">SSH</a></li>
 <li><a href="https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare">Live Share</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=DanielSanMedium.dscodegpt">CodeGPT</a></li>
 <li>... so many more!</li>
 </ul>
 
-</div>
-</div>
-</div>
-</div></section></section><section ><section >
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Demo-time">Demo time<a class="anchor-link" href="#Demo-time">&#182;</a></h1>
 </div>
 </div>
 </div>
@@ -14852,7 +14842,7 @@ $<span class="w"> </span><span class="nb">source</span><span class="w"> </span>.
 <h1 id="Recap">Recap<a class="anchor-link" href="#Recap">&#182;</a></h1><ul>
 <li>VS Code for productivity and control</li>
 <li>venv for peace of mind!</li>
-<li>What are your favorite plugins, libraries?</li>
+<li>What are your favorite plugins &amp; libraries?</li>
 </ul>
 
 </div>
