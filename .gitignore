@@ -1,2 +1,5 @@
 .vscode
 .venv
+tmp
+data/*.pcap
+data/*.csv
